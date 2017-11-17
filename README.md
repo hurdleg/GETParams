@@ -27,8 +27,7 @@ App remembers selected category between launches:
 
 ## Code Inspection ##
 
-  See the //TODO comments on how to implement basic authentication
-  (View > Tool Windows > TODO)
+  See my //TODO comments: **View > Tool Windows > TODO**
 
 ## Source Code ##
 
