@@ -44,6 +44,7 @@ public class DetailBuildingActivity extends Activity {
         String url = "https://doors-open-ottawa.mybluemix.net/buildings/" + selectedBuilding.getBuildingId() + "/image";
         Picasso.with(this)
                 .load(Uri.parse(url))
+                .error(R.drawable.noimagefound)
                 .fit()
                 .into(buildingImage);
     }
