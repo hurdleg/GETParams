@@ -31,8 +31,8 @@ public class BuildingAdapter extends RecyclerView.Adapter<BuildingAdapter.ViewHo
     @Override
     public BuildingAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(mContext);
-        View planetView = inflater.inflate(R.layout.list_building, parent, false);
-        ViewHolder viewHolder = new ViewHolder(planetView);
+        View buildingView = inflater.inflate(R.layout.list_building, parent, false);
+        ViewHolder viewHolder = new ViewHolder(buildingView);
         return viewHolder;
     }
 
